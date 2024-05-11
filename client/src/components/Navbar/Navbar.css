@@ -1,0 +1,85 @@
+#nav {
+    background-color: rgba(40, 40, 40, 255);
+    top: 0;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    z-index: 1000000000000000000;
+}
+
+#nav ul {
+    display: flex;
+    gap: 80px;
+    padding-left: 400px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+
+
+#nav ul li {
+    list-style-type: none;
+
+}
+
+#nav ul li p {
+    font-size: 18px;
+}
+
+#nav ul li p:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#nav #logo {
+    height: 80px;
+    width: 80px;
+    margin-left: 100px;
+    padding-right: 700px;
+}
+
+#nav #log {
+    margin-left: 450px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#nav #log:hover {
+    background-color: rgb(37, 29, 29);
+}
+
+#front {
+    padding-top: 100px;
+}
+
+#log {
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown-content p:hover {
+    background-color: #ddd;
+}

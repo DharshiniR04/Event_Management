@@ -1,0 +1,54 @@
+#Signup {
+  display: flex;
+  flex-direction: row;
+}
+
+#sign1 {
+  flex: 35%;
+}
+
+#sign2 {
+  flex: 65%;
+
+
+}
+
+#sign2 form {
+  height: 400px;
+  margin: 130px 0px 0px 250px;
+  width: 50%; 
+  background-color:rgb(36, 34, 34);
+  border: 1px solid black;
+  padding: 20px 0px 0px 100px;
+  color: white;
+}
+
+#sign2 label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#sign2 input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#sign2 button {
+  background-color: #386d7a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0px 0px 150px;
+}
+
+#sign2 button:hover {
+  background-color: rgba(56, 109, 122, 0.6);
+}
