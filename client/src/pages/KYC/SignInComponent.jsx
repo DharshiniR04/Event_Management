@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function SignInComponent() {
     const navi = useNavigate();
     const [hasToken, setHasToken] = useState(false);
-    const CLIENT_ID = "13980246860864414903";
+    const CLIENT_ID = "your client id";
     const REDIRECT_URL = window.location.protocol + "//" + window.location.host + window.location.pathname;
     const AUTH_URL = `https://www.phone.email/auth/log-in?client_id=${CLIENT_ID}&redirect_url=${REDIRECT_URL}`;
 
